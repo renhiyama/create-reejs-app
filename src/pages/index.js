@@ -5,7 +5,7 @@ export default function () {
   let logIt = (elements) => {
     console.log(elements);
   };
-  if(ree.IS_BROWSER){
+  if(ree.IS_BROWSERA){
     (async()=>{
        console.log("Running Lighthouse Score");
        let {getCLS, getFID, getLCP} = await Import('https://unpkg.com/web-vitals?module');
