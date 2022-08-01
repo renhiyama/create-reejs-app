@@ -4,7 +4,7 @@ env: dev
 # Can be dev / prod.
 check: true
 # Can be true / false. This visits all the routes and checks if they are valid.
-minify: true
+minify: false
 # Can be true / false. This minifies the assets and keeps them in memory.
 version: 0.0.1
 # Do not edit this!
