@@ -5,7 +5,15 @@ export default function () {
   let logIt = (elements) => {
     console.log(elements);
   };
-
+  if(ree.IS_BROWSER){
+    (async()=>{
+       console.log("Running Lighthouse Score");
+       let {getCLS, getFID, getLCP} = await Import('https://unpkg.com/web-vitals?module');
+       getCLS(console.log);
+       getFID(console.log);
+       getLCP(console.log);
+    })();
+  }
   return html`<h1 className="text-indigo-600">Hello Reejs!</h1>
   <${Form} onSubmit=${logIt}>
     <input type="text" placeholder="Name" />

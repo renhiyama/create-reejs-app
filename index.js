@@ -1,5 +1,5 @@
-import reejs from "reejs";
-globalThis.reejs = reejs;
-if(reejs.isEnabled){
+import ree from "reejs";
+globalThis.ree = ree;
+if(ree.isEnabled){
     import("./main.js");
 }

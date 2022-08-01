@@ -1,3 +1,3 @@
 (async () => {
-  reejs.server.listen(parseInt(process.argv[2]) || 3000);
+  ree.server.listen(parseInt(process.argv[2]) || 3000);
 })()

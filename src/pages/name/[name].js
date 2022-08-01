@@ -71,5 +71,6 @@ export let config = {
   shallowRender: false,
   hydrate: true,
   preloadComponents: ["/src/components/hello.js"],
+  checkRoute: "/name/failure"
 };
 /* REEJS_SERVER_SIDE_END */
