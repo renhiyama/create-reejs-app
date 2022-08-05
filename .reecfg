@@ -6,5 +6,7 @@ check: true
 # Can be true / false. This visits all the routes and checks if they are valid.
 minify: false
 # Can be true / false. This minifies the assets and keeps them in memory.
+twindSSR: true
+# Can be true / false. This uses the twind SSR server to render the app.
 version: 0.0.1
 # Do not edit this!

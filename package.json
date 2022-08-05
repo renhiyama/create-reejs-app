@@ -1,1 +1,25 @@
-{"name":"create-reeact-app","version":"1.0.0","main":"index.js","type":"module","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git+https://github.com/ree-js/create-reeact-app.git"},"keywords":[],"author":"","license":"MIT","bugs":{"url":"https://github.com/ree-js/create-reeact-app/issues"},"homepage":"https://github.com/ree-js/create-reeact-app#readme","description":"","dependencies":{"@deno/shim-deno":"^0.8.0","@deno/shim-prompts":"^0.1.0","@reejs/colors":"*","@reejs/pathToRegexp":"*","@reejs/reender":"*","@reejs/router":"*","@reejs/shell":"*","@reejs/style-vendorizer":"*","@reejs/twind":"*","cookie-es":"*","destr":"*","h3":"*","mri":"*","photon":"*","radix3":"*","react":"*","reejs":"*","sade":"*","ufo":"*"}}
+{
+    "name": "create-reeact-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "^18.4.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ree-js/create-reeact-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ree-js/create-reeact-app/issues"
+    },
+    "homepage": "https://github.com/ree-js/create-reeact-app#readme",
+    "description": "",
+    "dependencies": {}
+}
