@@ -1,1 +1,25 @@
-{"name":"create-reeact-app","version":"1.0.0","main":"index.js","type":"module","scripts":{"start":"NODE_OPTIONS='--experimental-vm-modules --experimental-fetch' node index.js"},"engines":{"node":"^18.4.x"},"repository":{"type":"git","url":"git+https://github.com/ree-js/create-reeact-app.git"},"keywords":[],"author":"","license":"MIT","bugs":{"url":"https://github.com/ree-js/create-reeact-app/issues"},"homepage":"https://github.com/ree-js/create-reeact-app#readme","description":"","dependencies":{}}
+{
+    "name": "create-reeact-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "NODE_OPTIONS='--experimental-vm-modules --experimental-fetch' node index.js"
+    },
+    "engines": {
+        "node": "^18.4.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ree-js/create-reeact-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ree-js/create-reeact-app/issues"
+    },
+    "homepage": "https://github.com/ree-js/create-reeact-app#readme",
+    "description": "",
+    "dependencies": {}
+}
