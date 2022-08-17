@@ -9,6 +9,7 @@ export default function () {
   >
     Welcome To Ree.js!
   </h1>
+  <a className="text-violet-800 text-5xl" href="/anotherpage">Click Me if you sus!</a>
 </main>`;
 }
 
@@ -18,7 +19,7 @@ export function head() {
 }
 
 export let config = {
-  hydrate: false,
+  hydrate: true,
   runAfterInit: async()=>{
     let c = await Import("https://esm.sh/canvas-confetti@1.5.1");
     let main = $("main");

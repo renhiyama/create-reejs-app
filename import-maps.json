@@ -1,1 +1,11 @@
-{"imports":{"preact":"https://esm.sh/preact@10.10.0","htm":"https://unpkg.com/htm@3.1.1/dist/htm.module.js?module"}}
+{
+    "imports": {
+        "preact": "https://esm.sh/preact@10.10.0",
+        "preact/": "https://esm.sh/preact@10.10.0/",
+        "react": "https://esm.sh/preact@10.10.0",
+        "htm": "https://esm.sh/htm@3.1.1",
+        "twind": "https://esm.sh/twind@1.0.0-next.38",
+        "@twind/cdn": "https://cdn.jsdelivr.net/npm/@twind/cdn@next/+esm",
+        "@twind/preset-tailwind": "https://esm.sh/@twind/preset-tailwind@1.0.0-next.38"
+    }
+}
