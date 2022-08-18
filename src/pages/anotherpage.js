@@ -13,7 +13,6 @@ export default function () {
 </main>`;
 }
 
-/* REEJS_SERVER_SIDE_START */
 export function head() {
   return html`<title>Hola Amigos!</title>`;
 }
@@ -23,4 +22,3 @@ export let config = {
   cache: true,
   twind: true
 }
-/* REEJS_SERVER_SIDE_END */
