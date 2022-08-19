@@ -1,9 +1,5 @@
-let { h, Component, render } = await Import("preact");
-let htm = await Import("htm");
-
-let html = htm.bind(h);
 export default function () {
-  return html`<main className="h-screen bg-red-600 flex items-center justify-center">
+  return ree.html`<main className="h-screen bg-red-600 flex items-center justify-center">
   <h1
     className="font-bold /* you can even use inline comments */ text-white text-7xl"
   >
@@ -14,7 +10,7 @@ export default function () {
 }
 
 export function head() {
-  return html`<title>Hola Amigos!</title>`;
+  return ree.html`<title>Hola Amigos!</title>`;
 }
 
 export let config = {

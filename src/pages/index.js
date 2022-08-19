@@ -1,9 +1,5 @@
-let { h, Component, render } = await Import("preact");
-let htm = await Import("htm");
-
-let html = htm.bind(h);
 export default function () {
-  return html`<main className="min-h-screen bg-indigo-600">
+  return ree.html`<main className="min-h-screen bg-indigo-600">
   <div className="flex items-center justify-center">
     <h1 className="font-bold /* you can even use inline comments */ text-white text-7xl">
       Welcome To Ree.js!
@@ -14,7 +10,7 @@ export default function () {
 }
 
 export function head() {
-  return html`<title>Hey there!</title>`;
+  return ree.html`<title>Hey there!</title>`;
 }
 
 export let config = {
