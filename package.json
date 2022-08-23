@@ -6,7 +6,8 @@
     "scripts": {
         "v": "reejs -v",
         "node18": "npx node@18 ./node_modules/.bin/reejs serve",
-        "start": "reejs serve"
+        "start": "reejs serve",
+        "rawstart": "node ./index.js"
     },
     "engines": {
         "node": "^18.4.x"
@@ -24,6 +25,6 @@
     "homepage": "https://github.com/ree-js/create-reeact-app#readme",
     "description": "",
     "dependencies": {
-        "reejs": "*"
+        "reejs": "^0.1.9"
     }
 }
