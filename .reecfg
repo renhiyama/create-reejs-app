@@ -1,6 +1,6 @@
 system: react
 # Can be react.
-env: prod
+env: dev
 # Can be dev / prod.
 check: true
 # Can be true / false. This visits all the routes and checks if they are valid.
