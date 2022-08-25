@@ -1,5 +1,7 @@
 system: react
 # Can be react.
+mode: auto
+# Can be auto/ssr/csr
 env: dev
 # Can be dev / prod.
 check: true

@@ -5,12 +5,11 @@
     "type": "module",
     "scripts": {
         "v": "reejs -v",
-        "node18": "npx node@18 ./node_modules/.bin/reejs serve",
-        "start": "reejs serve",
-        "rawstart": "node ./index.js"
+        "start": "node ./index.js",
+        "build": "reejs -v"
     },
     "engines": {
-        "node": "^18.4.x"
+        "node": "^16.x"
     },
     "repository": {
         "type": "git",
@@ -25,6 +24,6 @@
     "homepage": "https://github.com/ree-js/create-reeact-app#readme",
     "description": "",
     "dependencies": {
-        "reejs": "^0.1.9"
+        "reejs": "^0.2.4"
     }
 }
