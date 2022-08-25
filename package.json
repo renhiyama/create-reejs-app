@@ -4,7 +4,6 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "v": "reejs -v",
         "start": "node ./index.js",
         "build": "reejs -v"
     },
