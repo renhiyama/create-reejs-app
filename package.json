@@ -23,6 +23,6 @@
     "homepage": "https://github.com/ree-js/create-reeact-app#readme",
     "description": "",
     "dependencies": {
-        "reejs": "^0.4.7"
+        "reejs": "^0.4.8"
     }
 }
