@@ -22,5 +22,5 @@ export let config = {
     c();
   },
   cache: true,
-  twind: true
+  twindSSR: true
 }

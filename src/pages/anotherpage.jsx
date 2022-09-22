@@ -78,6 +78,6 @@ export function head() {
 export let config = {
   hydrate: true,
   cache: true,
-  twind: true,
+  twindSSR: true,
   body: (p)=><body className="dark"><div id="app">{(p.children || " ")}</div></body>
 }
