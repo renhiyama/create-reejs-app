@@ -3,5 +3,5 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: git clone https://github.com/rovelstars/reejs && cd reejs && npm link .
-    command: reejs serve
+  - init: echo "no init needed"
+    command: echo "hmm"
